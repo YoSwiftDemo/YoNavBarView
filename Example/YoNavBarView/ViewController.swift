@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+import YoNavBarView
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let navBarView = YoNavBarView.init(frame: CGRect(x: 100, y: 100, width: 300, height: 40))
+        self.view.addSubview(navBarView)
+        navBarView.backgroundColor = .red
     }
 
     override func didReceiveMemoryWarning() {

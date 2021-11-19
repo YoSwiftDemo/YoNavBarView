@@ -1,5 +1,5 @@
 PODS:
-  - YoNavBarView (0.1.0)
+  - YoNavBarView (0.1.1)
 
 DEPENDENCIES:
   - YoNavBarView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YoNavBarView: a1ded65e5ab87ab7a6addd6f99c874346a521d74
+  YoNavBarView: 9b81cb51371017d9fc7bd54ed2dcaf3e658a6f67
 
 PODFILE CHECKSUM: 7cfaae0cdee62bce4f73e541fc9528cb615b6976
 

@@ -25,35 +25,35 @@ public protocol YoNavBarViewDelegate {
 open class YoNavBarView: UIView {
     open weak var delegate:YoNavBarViewDelegate?
     //左侧按钮
-    lazy var leftBtn: UIButton = {
+    open lazy var leftBtn: UIButton = {
         let btn = UIButton.init()
         btn.addTarget(self, action: #selector(leftBtnAction(_:)), for: .touchUpInside)
         self.addSubview(btn)
         return btn
     }()
     //中间title
-    lazy var titleLab: UILabel = {
+    open lazy var titleLab: UILabel = {
         let lab = UILabel.init()
         self.addSubview(lab)
         return lab
     }()
     //右侧按钮
-    lazy var rightBtn: UIButton = {
+    open lazy var rightBtn: UIButton = {
         let btn = UIButton.init()
         btn.addTarget(self, action: #selector(rightBtnAction(_:)), for: .touchUpInside)
         return btn
     }()
     //底部分割线
-    lazy var bottomLineView: UIView = {
+    open lazy var bottomLineView: UIView = {
         let view = UIView.init()
         self.addSubview(view)
         return view
     }()
-    override init(frame: CGRect) {
+    public  override init(frame: CGRect) {
         super.init(frame: frame)
         //需要时候添加
     }
-    required public init?(coder: NSCoder) {
+    required  public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
    //布局
