@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YoNavBarView_Example' do
+  pod 'YoNavBarView', :path => '../'
+
+  target 'YoNavBarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
