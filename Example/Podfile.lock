@@ -1,0 +1,16 @@
+PODS:
+  - YoNavBarView (0.1.0)
+
+DEPENDENCIES:
+  - YoNavBarView (from `../`)
+
+EXTERNAL SOURCES:
+  YoNavBarView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YoNavBarView: a1ded65e5ab87ab7a6addd6f99c874346a521d74
+
+PODFILE CHECKSUM: 7cfaae0cdee62bce4f73e541fc9528cb615b6976
+
+COCOAPODS: 1.11.2

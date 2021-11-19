@@ -1,0 +1,6 @@
+framework module Pods_YoNavBarView_Tests {
+  umbrella header "Pods-YoNavBarView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
