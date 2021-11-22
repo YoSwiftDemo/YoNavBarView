@@ -40,6 +40,7 @@ open class YoNavBarView: UIView {
     //右侧按钮
     open lazy var rightBtn: UIButton = {
         let btn = UIButton.init()
+        self.addSubview(btn)
         btn.addTarget(self, action: #selector(rightBtnAction(_:)), for: .touchUpInside)
         return btn
     }()
